@@ -1,0 +1,23 @@
+{
+  "extends": "../core/.babelrc",
+  "plugins": [
+    ["transform-imports", {
+      "@fortawesome/free-solid-svg-icons": {
+        "transform": "@fortawesome/free-solid-svg-icons/${member}",
+        "skipDefaultConversion": true
+      },
+      "@fortawesome/free-brands-svg-icons": {
+        "transform": "@fortawesome/free-brands-svg-icons/${member}",
+        "skipDefaultConversion": true
+      },
+      "@material-ui/core": {
+        "transform": "@material-ui/core/${member}",
+        "preventFullImport": true
+      },
+      "@material-ui/icons": {
+        "transform": "@material-ui/icons/${member}",
+        "preventFullImport": true
+      }
+    }]
+  ]
+}
