@@ -2,10 +2,13 @@
   "name": "@zvs001/babel-config",
   "version": "0.0.1",
   "description": "",
-  "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "bugs": {
+    "url": "https://github.com/zvs001/babel-config/issues"
+  },
+  "homepage": "https://github.com/zvs001/babel-config#readme",
   "author": "",
   "license": "ISC",
   "dependencies": {
