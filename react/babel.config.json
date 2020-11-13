@@ -1,5 +1,5 @@
 {
-  "extends": "../core/.babelrc",
+  "extends": "../core/babel.config.json",
   "plugins": [
     ["transform-imports", {
       "@fortawesome/free-solid-svg-icons": {
