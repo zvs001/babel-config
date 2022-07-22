@@ -3,6 +3,10 @@
 `yarn add @zvs001/babel-config`
 
 
+List of configurations:
+- core
+- react
+
 ## Example
 
 Update `.babelrc`:
