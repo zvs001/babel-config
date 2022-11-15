@@ -1,6 +1,13 @@
 {
   "extends": "../core/babel.json",
   "plugins": [
+    "@emotion",
+    [
+      "babel-plugin-direct-import",
+      {
+        "modules": ["@mui/system", "@mui/material", "@mui/icons-material", "@mui/lab"]
+      }
+    ],
     ["transform-imports", {
       "@fortawesome/free-solid-svg-icons": {
         "transform": "@fortawesome/free-solid-svg-icons/${member}",
@@ -9,14 +16,6 @@
       "@fortawesome/free-brands-svg-icons": {
         "transform": "@fortawesome/free-brands-svg-icons/${member}",
         "skipDefaultConversion": true
-      },
-      "@material-ui/core": {
-        "transform": "@material-ui/core/${member}",
-        "preventFullImport": true
-      },
-      "@material-ui/icons": {
-        "transform": "@material-ui/icons/${member}",
-        "preventFullImport": true
       }
     }]
   ]

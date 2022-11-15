@@ -4,8 +4,21 @@
 
 
 List of configurations:
-- core
-- react
+
+#### core
+
+Configuration is based on [metro-react-native-babel-preset](https://www.npmjs.com/package/metro-react-native-babel-preset)
+
+#### react
+
+Based on `core` config
+
+Includes: @emotion
+
+Configuration includes imports optimisations for:
+- @mui
+- @fortawesome
+
 
 ## Example
 
