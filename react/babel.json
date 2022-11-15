@@ -1,7 +1,6 @@
 {
   "extends": "../core/babel.json",
   "plugins": [
-    "@emotion",
     [
       "babel-plugin-direct-import",
       {

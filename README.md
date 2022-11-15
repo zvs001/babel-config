@@ -13,8 +13,6 @@ Configuration is based on [metro-react-native-babel-preset](https://www.npmjs.co
 
 Based on `core` config
 
-Includes: @emotion
-
 Configuration includes imports optimisations for:
 - @mui
 - @fortawesome
