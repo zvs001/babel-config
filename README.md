@@ -24,7 +24,7 @@ Update `.babelrc`:
 
 ```json
 {
-  "extends": "@zvs001/babel-config/react/babel.json",
+  "extends": "@zvs001/babel-config/react",
   "sourceRoot": ".",
   "plugins": [
     [
