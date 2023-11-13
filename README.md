@@ -13,6 +13,9 @@ Configuration is based on [metro-react-native-babel-preset](https://www.npmjs.co
 
 Based on `core` config
 
+Includes: 
+ - @emotion plugin with auto-pragma
+
 Configuration includes imports optimisations for:
 - @mui
 - @fortawesome
@@ -39,4 +42,15 @@ Update `.babelrc`:
   ]
 }
 
+```
+
+To make typescript to properly work with pragma-auto? add next update to `tsconfig.json`:
+
+```json
+{
+  "compilerOptions": {
+    "jsx": "react-jsx",
+    "jsxImportSource": "@emotion/react",
+  }
+}
 ```
