@@ -13,9 +13,7 @@
   "license": "ISC",
   "dependencies": {
     "@emotion/babel-plugin": "^11.11.0",
-    "babel-plugin-direct-import": "^1.0.0",
     "babel-plugin-transform-imports": "^2.0.0",
-    "metro-react-native-babel-preset": "^0.77.0",
-    "root-require-utils": "^0.0.1"
+    "metro-react-native-babel-preset": "^0.77.0"
   }
 }
